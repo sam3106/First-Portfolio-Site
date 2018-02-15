@@ -1,0 +1,45 @@
+html,body{
+    background-color:green;
+    height: auto;
+}
+nav{
+background:white;
+color:green;
+   text-align: center;
+    margin-top: 2%;
+}
+nav a{
+color:green;
+}
+.center{
+    margin: 0 auto;
+}
+h3, p{
+color:white;
+}
+.descend{ 
+    color: white;
+    margin-bottom:5vh;
+    font-family: 'Spectral SC', serif;}
+
+
+/*                 Animations                    */
+.descend{position: relative;animation-name: 
+        descend;animation-duration: 1.5s;}
+@keyframes descend{0% {top: -500px; opacity:-3;}
+	             100%{ top: 0px; opacity: 1;}
+}
+.right-two{position: relative;animation-name: 
+        right;animation-duration: 3s;}
+@keyframes right{0% {right: -500px; opacity:-3;}
+	             100%{ right: 0px; opacity: 1;}
+}
+.left{position: relative;animation-name: 
+        left;animation-duration: 2.5s;}
+@keyframes left{0%  {left: -500px; opacity:-3;}
+	             100%{ left: 0px; opacity: 1;}
+}
+
+/*                 Media Querry                    */
+@media only screen and (max-width: 1200px) {
+
