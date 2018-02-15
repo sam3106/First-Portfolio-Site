@@ -1,0 +1,78 @@
+html,body{
+    background-color:green;
+}
+nav{
+background:white;
+color:green;
+   text-align: center;
+}
+nav a{
+color:green;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+a { text-decoration: none !important;}
+.center{
+    margin: 0 auto;
+}
+.descend{
+    color: white;
+    margin-bottom:5vh;
+    font-family: 'Spectral SC', serif;}
+#type-writer{
+
+  font-family: 'Georgia';
+  color: green; 
+  font-weight: bold;
+  background-color:white;
+}
+p{ font-family: 'Indie Flower', cursive;
+}
+.container-fluid{
+width:100%;
+margin-right:auto;
+margin-left:auto;
+padding:0;
+}
+bottom{
+width:100%;
+}
+.pad{
+margin-top:200px;
+padding-bottom:230px;
+}
+/*                 Animations                    */
+.descend{position: relative;animation-name: 
+        descend;animation-duration: 1.5s;}
+@keyframes descend{0% {top: -500px; opacity:-3;}
+	             100%{ top: 0px; opacity: 1;}
+}
+.right-two{position: relative;animation-name: 
+        right;animation-duration: 3s;}
+@keyframes right{0% {right: -500px; opacity:-3;}
+	             100%{ right: 0px; opacity: 1;}
+}
+.left{position: relative;animation-name: 
+        left;animation-duration: 2.5s;}
+@keyframes left{0%  {left: -500px; opacity:-3;}
+	             100%{ left: 0px; opacity: 1;}
+}
+
+/*                 Media Querry                    */
+
+@media only screen and (max-width: 767px) {
+    .pad {
+        margin-top:10%;
+       padding-bottom:10%;
+    }
+}
+
