@@ -3,21 +3,38 @@ html,body{
     height: auto;
 }
 nav{
-background:white;
-color:green;
-   text-align: center;
-    margin-top: 2%;
+    background:black;
+    color:#22a53f;
+    text-align: center;
+    padding: 10px;
 }
 nav a{
 color:green;
+text-decoration: none;
 }
 .center{
     margin: 0 auto;
+}
+.fix-row{
+
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.img-fluid{
+
+    max-width: 60%;
+}
+h3{
+color:white;
+}
+p{
+color:black;
 }
 .descend{ 
     color: white;
     margin-bottom:5vh;
     font-family: 'Spectral SC', serif;}
+
 
 /*                 Animations                    */
 .descend{position: relative;animation-name: 
@@ -35,9 +52,7 @@ color:green;
 @keyframes left{0%  {left: -500px; opacity:-3;}
 	             100%{ left: 0px; opacity: 1;}
 }
-.img-fluid {
-     width:40%;
-    }
+
 /*                 Media Querry                    */
 
 
