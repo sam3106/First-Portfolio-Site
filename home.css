@@ -1,15 +1,23 @@
 html,body{
-    background-color: #259b3e;
+    background-color:green;
+    height: auto;
 }
 nav{
-background:black;
-color:#22a53f;
-   text-align: center;
-   padding: 30px;
+    background:black;
+    color:#22a53f;
+    text-align: center;
+    padding: 10px;
 }
 nav a{
-color:rgb(4, 158, 4);
+color:green;
+text-decoration: none;
 }
+.fix-row{
+
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
 .cf:before,
 .cf:after {
     content: " ";
@@ -56,8 +64,8 @@ bottom{
 width:100%;
 }
 .pad{
-margin-top:200px;
-padding-bottom:230px;
+margin-top:101;
+padding-bottom:75px;
 }
 /*                 Animations                    */
 .descend{position: relative;animation-name: 
