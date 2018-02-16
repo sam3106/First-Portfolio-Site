@@ -9,21 +9,21 @@
     
 </head>
 <body>
-  <nav >
-    <div class="container ">
-     <div class="row mb-5">
-         <div class="col-sm-2 font-weight-bold"><a href="index.php">Home</a></div>
-         <div class="col-sm-4 font-weight-bold"><a href="myExpertise.php">My Expertise</a></div>
-         <div class="col-sm-2 font-weight-bold"><a href="projects.php">Projects</a></div>
-         <div class="col-sm-4 font-weight-bold"><a href="contact.php">Contact Me</a></div>
+  <nav class="text-center">
+    <div class="container">
+     <div class="row fix-row mb-5">
+         <div class="col-sm-3 font-weight-bold"><a href="index.php">Home</a></div>
+         <div class="col-sm-3 font-weight-bold"><a href="myExpertise.php">My Expertise</a></div>
+         <div class="col-sm-3 font-weight-bold"><a href="projects.php">Projects</a></div>
+         <div class="col-sm-3 font-weight-bold"><a href="contact.php">Contact Me</a></div>
      </div>
     </div>
    </nav>
-
- <div class="container  text-center">
-       <div class="row  text-center">
+   
+   <div class="container  text-center mb-5">
+       <div class="row fix-row text-center">
          <div class="col-12-sm center text-center">
-          <h1 class="descend font-weight-bold">CONTACT ME</h1>
+          <h1 class="descend font-weight-bold">Contact Me</h1>
        </div>
     </div>
     </div>
