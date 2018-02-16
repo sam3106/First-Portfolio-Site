@@ -9,28 +9,25 @@
     
 </head>
 <body onload="typeWriter()">
-  <nav>
+  <nav class="text-center">
     <div class="container">
-     <div class="row mt-2">
-         <div class="col-sm-2 font-weight-bold"><a href="index.php">Home</a></div>
-         <div class="col-sm-4 font-weight-bold"><a href="myExpertise.php">My Expertise</a></div>
-         <div class="col-sm-2 font-weight-bold"><a href="projects.php">Projects</a></div>
-         <div class="col-sm-4 font-weight-bold"><a href="contact.php">Contact Me</a></div>
+     <div class="row fix-row mb-5">
+         <div class="col-sm-3 font-weight-bold"><a href="index.php">Home</a></div>
+         <div class="col-sm-3 font-weight-bold"><a href="myExpertise.php">My Expertise</a></div>
+         <div class="col-sm-3 font-weight-bold"><a href="projects.php">Projects</a></div>
+         <div class="col-sm-3 font-weight-bold"><a href="contact.php">Contact Me</a></div>
      </div>
     </div>
    </nav>
    
-   
-   
-      <div class="container  text-center">
-       <div class="row  text-center">
+   <div class="container  text-center mb-5">
+       <div class="row text-center">
          <div class="col-12-sm center text-center">
           <h1 class="descend font-weight-bold">Welcome To My Website!</h1>
        </div>
     </div>
-
+   
        <div class="row pad text-center">
-          
            <div class="col-md-4"><img class="img-fluid left" src="1.jpg" alt="A picture of me when I was in the navy"></div>
              <div class="col-md-8 right-two text-justify"><p>Hi! My Name is Teron and I have a passion for web development. The ability to create something out of nothing is a skill I truly value. I love it so much so that I decided to attend Great Bay Community College where I am pursuing a degree in Computer Science. I am also a veteran of The United State Navy.
                 During the time I served, I was able to learn valuable life lessons such as attention to detail, leadership, discipline, being a self starter, working with others on a team, and sacrifice. 
