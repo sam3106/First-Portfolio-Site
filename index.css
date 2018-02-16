@@ -12,6 +12,9 @@ nav a{
 color:green;
 text-decoration: none;
 }
+.center{
+    margin: 0 auto;
+}
 .fix-row{
 
     padding-top: 50px;
@@ -65,7 +68,7 @@ width:100%;
 }
 .pad{
 margin-top:101px;
-padding-bottom:75px;
+padding-bottom:25px;
 }
 /*                 Animations                    */
 .descend{position: relative;animation-name: 
