@@ -1,15 +1,30 @@
-html,body{
-    background-color:green;
-    height: auto;
+body{
+  background-image:url("body.jpg");
+    background-size: 100% 100%;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
 nav{
     background:black;
     color:#22a53f;
     text-align: center;
-    padding: 10px;
+    padding: 2vh;
 }
 nav a{
-color:green;
+color:deepskyblue;
 text-decoration: none;
 }
 .center{
@@ -17,8 +32,8 @@ text-decoration: none;
 }
 .fix-row{
 
-    padding-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .cf:before,
@@ -43,19 +58,28 @@ a { text-decoration: none !important;}
     margin-top: 40px;
 
 }
-
+.page{
+    height: 100vh;
+    position: relative;
+   
+}
 #type-writer{
 
   font-family: Arial, Helvetica, sans-serif;
-  color: white; 
+  color: deepskyblue; 
   font-weight: bold;
   background-color: black;
-  padding: 36px;
+  padding: 3vh;
 }
 p{
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
-
+    font-size:1.6vh;
+}
+.img{
+    background-image:url("1.jpg");
+    background-size: 100% 100%;
+    min-height: 30vh;
 }
 .container-fluid{
 width:100%;
@@ -63,13 +87,16 @@ margin-right:auto;
 margin-left:auto;
 padding:0;
 }
-bottom{
-width:100%;
+.bottom{
+position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
-.pad{
-margin-top:101px;
-padding-bottom:25px;
+.col-md-8{
+    background: deepskyblue;
 }
+
 /*                 Animations                    */
 .descend{position: relative;animation-name: 
         descend;animation-duration: 1.5s;}
@@ -87,12 +114,31 @@ padding-bottom:25px;
 	             100%{ left: 0px; opacity: 1;}
 }
 
-/*                 Media Querry                    */
 
 @media only screen and (max-width: 767px) {
-    .pad {
-        margin-top:10%;
-       padding-bottom:10%;
+    h1{ font-size: 3vh;
+    }
+    .img-fluid{ height: 25vh;
+    }
+    #type-writer{ font-size: 1.2vh;
+    }
+    p{ font-size: 1.5vh;
+    }
+    .fix-row{
+        padding-top:0vh;
+        margin-bottom: 0vh;
+    }
+    nav a{
+        overflow: hidden;
+        white-space: nowrap
     }
 }
 
+@media only screen and (max-width: 500px) {
+
+    p{ font-size: 1.2vh;
+    }
+    h1{font-size: 3vh;}
+    h3{font-size: 2.5vh;}
+
+}
