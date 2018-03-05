@@ -9,6 +9,7 @@
     
 </head>
 <body>
+<div class="page cf">
   <nav class="text-center">
     <div class="container">
      <div class="row mb-5">
@@ -27,7 +28,7 @@
        </div>
     </div>
     </div>
-   <div class="container text-center">
+   <div class="container text-center body ">
      <div class="row" >
         <div class="col-sm-4">
         <img class="img-fluid mb-2" src="html-logo.png" />
@@ -52,5 +53,6 @@
         
      </div>
    </div> 
+   </div>
     </body>
 </html>
