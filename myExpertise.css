@@ -1,15 +1,14 @@
-html,body{
-    background-color:green;
-    height: auto;
+body{
+  background-image:url("body.jpg");
 }
 nav{
     background:black;
     color:#22a53f;
     text-align: center;
-    padding: 10px;
+    padding: 2vh;
 }
 nav a{
-color:green;
+color:deepskyblue;
 text-decoration: none;
 }
 .center{
@@ -23,10 +22,14 @@ text-decoration: none;
 
 .row{
 
-    padding-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 3vh;
+    margin-bottom: 3vh;
 }
-
+.page{
+    height: 100vh;
+    position: relative;
+   
+}
 /*                 Animations                    */
 .descend{position: relative;animation-name: 
         descend;animation-duration: 1.5s;
@@ -44,13 +47,23 @@ text-decoration: none;
 @keyframes left{0%  {left: -500px; opacity:-3;}
 	             100%{ left: 0px; opacity: 1;}
 }
-
+.body{
+    background-color: deepskyblue;
+}
 /*                 Media Querry                    */
 
 @media only screen and (max-width: 767px) {
 
     .img-fluid{
     width:35%;
+    }
+        .fix-row{
+        padding-top:0vh;
+        margin-bottom: 0vh;
+    }
+    nav a{
+        overflow: hidden;
+        white-space: nowrap
     }
 }
 
