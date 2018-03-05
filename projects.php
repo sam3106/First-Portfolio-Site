@@ -28,28 +28,28 @@
     </div>
     </div>
 
-   <div class="container text-center ">
+   <div class="container text-center body">
      <div class="row" >
-        <div class="col-sm-6 mb-2">
+        <div class="col-sm-6 mb-2 one">
         <h3>Draw A Name</h3>
         <p>Languages used:PHP,MYSQL,HTML,CSS</p>
        <a href="../Draw-A-Name-PHP-Project/create.php"><img class="img-fluid" src="../Draw-A-Name-PHP-Project/draw.png"></a>
         </div>
     
-       <div class="col-sm-6 mb-2">
+       <div class="col-sm-6 mb-2 two">
         <h3>Animal in my house app?</h3>
         <p>Languages used:HTML,CSS,JavaScript,jQuery</p>
-         <a href="/animal-project/animal.html"><img class="img-fluid" src="/animal-project/animal.JPG"></a>
+         <a href="/animal-project/animal.html"><img class="img-fluid" src="../animal-project/animal.JPG"></a>
         </div>
        </div>
        
        <div class="row">
-        <div class="col-sm-6  mb-2">
+        <div class="col-sm-6  mb-2 three">
          <h3>GameStore</h3>
         <p>Languages used:HTML,CSS,JavaScript</p>
          <a href="../Game-Store/gamestore.html"><img class="img-fluid" src="../Game-Store/game2.JPG"></a>
         </div>
-     <div class="col-sm-6 mb-2">
+     <div class="col-sm-6 mb-2 four">
         <h3>Restaurants</h3>
         <p>Languages used:HTML,CSS,JavaScript</p>
         <a href="../restaurant-example/restaurant.html"><img class="img-fluid" src="../restaurant-example/restaurant.jpg"></a>
