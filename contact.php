@@ -20,7 +20,7 @@
     </div>
    </nav>
    
-   <div class="container  text-center mb-5">
+   <div class="container  text-center mb-5 ">
        <div class="row fix-row text-center">
          <div class="col-12-sm center text-center">
           <h1 class="descend font-weight-bold">Contact Me</h1>
@@ -28,7 +28,7 @@
     </div>
     </div>
     
-    <div class="container text-center">
+    <div class="container text-center body">
         <div class="row">
           <div class="col-sm-4 mb-3 ">
             <a href="mailto:sampson2448@yahoo.com"><img class="img-fluid" src="email.png" /></a>
